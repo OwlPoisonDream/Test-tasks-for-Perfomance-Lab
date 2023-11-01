@@ -1,5 +1,5 @@
 import os
-nums = open("nums.txt", 'r')
+nums = open(input("Введите путь до файла с целыми числами "), 'r')
 count = 0
 num = []
 for line in nums:
