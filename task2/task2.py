@@ -1,6 +1,6 @@
 import math
-circle = open('file1.txt','r')
-point = open('file2.txt', 'r')
+circle = open(input("Введите путь до файла с параметрами окружности"),'r')
+point = open(input("Введите путь до файла с параметрами точек"), 'r')
 cir = []
 points = []
 existence = "Не лежит"
